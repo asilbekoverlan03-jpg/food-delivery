@@ -1,0 +1,7 @@
+.checkout-title { font-size: 1.7rem; font-weight: 700; margin-bottom: 24px; color: var(--accent); }
+.checkout-layout { display: grid; grid-template-columns: 1fr 340px; gap: 24px; align-items: start; }
+@media (max-width: 700px) { .checkout-layout { grid-template-columns: 1fr; } }
+.checkout-items, .checkout-form { padding: 20px; color: #1a1a1a; }
+.checkout-items h2, .checkout-form h2 { font-size: 1.1rem; margin-bottom: 16px; color: #1a1a1a; }
+.checkout-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #f0f0f0; font-size: .93rem; color: #1a1a1a; }
+.checkout-total { display: flex; justify-content: space-between; margin-top: 14px; font-size: 1rem; color: #1a1a1a; }

@@ -1,0 +1,14 @@
+.orders-title { font-size: 1.7rem; font-weight: 700; margin-bottom: 20px; color: var(--accent); }
+
+.order-card {
+  display: block;
+  padding: 16px 20px;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+  transition: box-shadow .2s;
+}
+.order-card:hover { box-shadow: 0 4px 20px rgba(245,184,0,.2); }
+.order-card-head { display: flex; align-items: center; gap: 12px; margin-bottom: 4px; }
+.order-num { font-weight: 700; font-size: 1rem; color: #1a1a1a; }
+.order-addr { margin-top: 6px; font-size: .9rem; color: #555; }
+.order-total { font-weight: 700; font-size: 1.1rem; color: var(--accent-dark, #c99200); margin-top: 6px; }
